@@ -1,0 +1,122 @@
+/* layouting */
+.container{
+  background    : ;
+  margin-left   : 10%;
+  margin-right  : 10%;
+  margin-bottom : 2%;
+}
+.header{
+  background    : #066EA6;
+  color         : #1E4967;
+  height        : 10%;
+  padding       : 5%;
+  margin-bottom : 200px;
+}
+.navbar{
+  background  : #066EA6;
+  font-size   : 1.2em;
+  font-family : sans-serif;
+  text-align  : center;
+  padding     : 0.5%;
+  position    : sticky;
+  top         : 0px;
+  border-bottom: solid white;
+}
+.about{
+  background    : #066EA6;  
+  float         : left;
+  color         : white;
+  width         : 60%;
+  font-size     : 1em;
+  text-align    : center;
+  padding-top   : 10%;
+  padding-bottom: 10%;
+}
+.basicinfo{
+  float         : left;
+  width         : 40%;
+  color         : #066EA6;
+  border-top    : solid #066EA6;
+  text-align    : center;
+  padding-top   : 10%;
+  padding-bottom: 10%;
+}
+.footer{
+  background    : white;
+  border-bottom : solid #066EA6;
+  clear         : both;
+  font-size     : 1.5em;
+  text-align    :center;
+  padding-top   : 5%;
+}
+@media only screen and (max-width:900px) {
+  /* For mobile phones: */
+  .basicinfo, .about {
+    width:100%;
+  }
+}
+/* navbar design */
+.menu ul {
+  padding   : 0;
+}
+.menu ul li {
+  display   : inline-block;
+}
+.menu ul li a {
+  padding         : 10px 20px;
+  color           : #FEFEFE;
+  text-decoration : none;
+}
+/* image */
+.imgheader{
+  border        : 5px solid #FEFEFE;
+  border-radius : 20%;
+  width         : 170px;
+}
+.imgfooter{
+  width         : 7%;
+  padding       : 1%
+}
+/* konten */
+.header h1{
+  font-size   : 2.5em;
+  text-align  : center;
+  font-family : 'Franklin Gothic Medium';
+  margin      : 1%;
+}
+.header h4{
+  font-size   : 1.2em;
+  text-align  : center;
+  font-family : 'Franklin Gothic Medium';
+  margin      : 1%;
+}
+.about h2{
+  font-size     : 2em;
+  text-align    : justify;
+  font-family   : sans-serif;
+  padding-right : 10%;
+  padding-left  : 10%;
+}
+.about p{
+  font-size     : 1.2em;
+  text-align    : justify;
+  font-style    : italic;
+  font-family   : 'calibri';
+  padding-right : 10%;
+  padding-left  : 10%;
+}
+.basicinfo h2{
+  font-size     : 2em;
+  text-align    : justify;
+  font-family   : sans-serif;
+  padding-right : 10%;
+  padding-left  : 10%;
+}
+.tabelbasicinfo{
+  font-size     : 1.2em;
+  text-align    : justify;
+  font-family   : 'calibri';
+  padding-right : 10%;
+  padding-left  : 10%;
+  color         : #066EA6;
+}
