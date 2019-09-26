@@ -1,6 +1,6 @@
 /* layouting */
 .container{
-  background    : ;
+  background    : white;
   margin-left   : 10%;
   margin-right  : 10%;
   margin-bottom : 2%;
@@ -10,7 +10,7 @@
   color         : #1E4967;
   height        : 10%;
   padding       : 5%;
-  margin-bottom : 200px;
+  margin-bottom : 250px;
 }
 .navbar{
   background  : #066EA6;
@@ -29,8 +29,8 @@
   width         : 60%;
   font-size     : 1em;
   text-align    : center;
-  padding-top   : 10%;
-  padding-bottom: 10%;
+  padding-top   : 5%;
+  padding-bottom: 5%;
 }
 .basicinfo{
   float         : left;
@@ -38,8 +38,28 @@
   color         : #066EA6;
   border-top    : solid #066EA6;
   text-align    : center;
-  padding-top   : 10%;
-  padding-bottom: 10%;
+  padding-top   : 5%;
+  padding-bottom: 5%;
+}
+.skillsilustration{
+  float         : left;
+  width         : 50%;
+  text-align    : center;
+  padding-top   : 3%;
+  padding-bottom: 3%;
+  margin-top    : 2%;
+  border-top    : solid #066EA6;
+}
+.skills{
+  background    : #066EA6;  
+  float         : left;
+  color         : white;
+  width         : 50%;
+  font-size     : 1em;
+  text-align    : center;
+  padding-top   : 1%;
+  padding-bottom: 3%;
+  margin-top    : 2%;
 }
 .footer{
   background    : white;
@@ -51,8 +71,8 @@
 }
 @media only screen and (max-width:900px) {
   /* For mobile phones: */
-  .basicinfo, .about {
-    width:100%;
+  .basicinfo, .about, .skillsilustration, .skills {
+    width   :100%;
   }
 }
 /* navbar design */
@@ -71,12 +91,16 @@
 .imgheader{
   border        : 5px solid #FEFEFE;
   border-radius : 20%;
-  width         : 170px;
+  width         : 200px;
 }
 .imgfooter{
   width         : 7%;
   padding       : 1%
 }
+.imgskillsilustration{
+  width   : 30%;
+  height  : auto; 
+} 
 /* konten */
 .header h1{
   font-size   : 2.5em;
@@ -119,4 +143,48 @@
   padding-right : 10%;
   padding-left  : 10%;
   color         : #066EA6;
+}
+.skills h2{
+  font-size     : 2em;
+  text-align    : justify;
+  font-family   : sans-serif;
+  padding-right : 10%;
+  padding-left  : 10%;
+}
+/* progress bar */
+.computing{
+  width           : 70%; 
+  background-color: white;
+  margin-left     : 12%;
+  text-align      : left;
+  padding         : 2%;
+  margin-bottom   : 1%;
+}
+.computing span{
+  color       : #066EA6;
+  font-family : sans-serif;
+}
+.design{
+  width           : 70%; 
+  background-color: white;
+  margin-left     : 12%;
+  text-align      : left;
+  padding         : 2%;
+  margin-bottom   : 1%;
+}
+.design span{
+  color       : #066EA6;
+  font-family : sans-serif;
+}
+.marketing{
+  width           : 40%; 
+  background-color: white;
+  margin-left     : 12%;
+  text-align      : left;
+  padding         : 2%;
+  margin-bottom   : 1%;
+}
+.marketing span{
+  color       : #066EA6;
+  font-family : sans-serif;
 }
